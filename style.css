@@ -34,7 +34,7 @@ body {
   box-shadow: 8px 8px 0px 1px #000000;
   position: absolute;
   top: 50%;
-  left: 45%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 .card-img-top {
