@@ -29,22 +29,21 @@ body {
 }
 .card {
   width: 384px;
-  height: 522px;
   border: 1px solid black;
   box-shadow: 8px 8px 0px 1px #000000;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  line-height: 1.5;
+  font-family: "Figtree", sans-serif;
+}
+.card-body {
+  margin-left: 5px;
 }
 .card-img-top {
   width: 366px;
-  height: 200px;
-  margin: 20px 10px;
-}
-.container {
-  line-height: 1.5;
-  font-family: "Figtree", sans-serif;
+  margin: 20px 20px;
 }
 .card-title {
   font-size: 24px;
@@ -56,7 +55,6 @@ body {
 }
 .userpic {
   width: 32px;
-  height: 32px;
   display: flex;
   position: relative;
   top: 15px;
@@ -64,30 +62,19 @@ body {
 @media (max-width: 375px) {
   .card {
     width: 327px;
-    height: 501px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  .card-img-top {
-    margin-top: 20px;
-    margin-bottom: 5px;
-  }
   .rounded-3 {
     width: 279px;
-  }
-  .btn {
-    margin-top: -100px;
-    margin-bottom: -45px;
   }
   .footer {
     margin-top: -15px;
   }
   .card-body {
     width: 327px;
-  }
-  .publishDate {
-    margin-top: -10px;
+    margin-left: 5px;
   }
 }
