@@ -1,0 +1,66 @@
+body {
+  background-color: hsl(47, 88%, 63%);
+}
+.author {
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  position: relative;
+  left: 45px;
+  bottom: 10px;
+}
+.attribution {
+  opacity: 0.6;
+}
+.body {
+  font-size: 16px;
+  font-weight: 400;
+  color: hsl(0, 0%, 50%);
+}
+.btn {
+  width: 82px;
+  height: 29px;
+  font-size: 13px;
+  color: #000000;
+  background-color: hsl(47, 88%, 63%);
+  margin-top: -10px;
+  margin-bottom: 10px;
+  padding: 3px;
+}
+.btn:hover {
+  background-color: hsl(47, 88%, 63%);
+}
+.card {
+  width: 384px;
+  height: 522px;
+  border: 1px solid black;
+  box-shadow: 8px 8px 0px 1px #000000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.card-img-top {
+  width: 366px;
+  height: 200px;
+  margin: 20px 10px;
+}
+.container {
+  line-height: 1.5;
+  font-family: "Figtree", sans-serif;
+}
+.card-title {
+  font-size: 24px;
+  margin-bottom: 18px;
+}
+.publishDate {
+  font-size: 14px;
+  font-weight: 600;
+}
+.userpic {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  position: relative;
+  top: 15px;
+}
