@@ -9,9 +9,6 @@ body {
   left: 45px;
   bottom: 10px;
 }
-.attribution {
-  opacity: 0.6;
-}
 .body {
   font-size: 16px;
   font-weight: 400;
@@ -37,7 +34,7 @@ body {
   box-shadow: 8px 8px 0px 1px #000000;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 45%;
   transform: translate(-50%, -50%);
 }
 .card-img-top {
@@ -63,4 +60,35 @@ body {
   display: flex;
   position: relative;
   top: 15px;
+}
+@media (max-width: 375px) {
+  .card {
+    width: 327px;
+    height: 501px;
+    position: absolute;
+    margin-left: -12px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .card-img-top {
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  .rounded-3 {
+    width: 279px;
+  }
+  .btn {
+    margin-top: -100px;
+    margin-bottom: -45px;
+  }
+  .footer {
+    margin-top: -15px;
+  }
+  .card-body {
+    width: 327px;
+  }
+  .publishDate {
+    margin-top: -10px;
+  }
 }
